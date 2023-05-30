@@ -1,4 +1,10 @@
 const cols = document.querySelectorAll('.col')
+const closeButton = document.querySelector('.fa-times');
+const hint = document.querySelector('.hint');
+
+closeButton.addEventListener('click', () => {
+    hint.style.display = 'none';
+});
 
 document.addEventListener('keydown', event => {
     event.preventDefault()

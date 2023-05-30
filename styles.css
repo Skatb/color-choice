@@ -44,3 +44,28 @@ body {
     background: rgba(0, 0, 0, 0.1);
     cursor: pointer;
 }
+
+.hint {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+}
+
+.hint-content {
+    display: inline-block;
+    margin-right: 7px;
+}
+
+.fa-times {
+    color: #888;
+    cursor: pointer;
+}
+.fa-times:before {
+    padding-left: 10px;
+}
